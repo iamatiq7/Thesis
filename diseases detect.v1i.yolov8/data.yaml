@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Melanose', 'black spot', 'canker', 'greening', 'healthy']
+
+roboflow:
+  workspace: aust-6nf1i
+  project: diseases-detect
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aust-6nf1i/diseases-detect/dataset/1

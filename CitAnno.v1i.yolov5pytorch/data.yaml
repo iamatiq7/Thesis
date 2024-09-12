@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Black', 'Canker', 'Greening', 'Healthy', 'Melanose']
+
+roboflow:
+  workspace: university-x9v5e
+  project: citanno
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-x9v5e/citanno/dataset/1
